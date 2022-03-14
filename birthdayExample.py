@@ -15,7 +15,7 @@ import json
 #
 
 # relative path
-pathToFile = "./birthday/birthday.json"
+pathToFile = "D:/Programming Practice/Python/Lupitas-Lookup-App/birthday.json"
 
 
 # try to open a file and throw a error if it is not found
