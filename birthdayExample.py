@@ -39,7 +39,10 @@ name = input("Enter a name:")
 
 # if-else statement
 if name in birthdayDictionary:
-    print("yes " + name + " is in dictionary.")
+    print("Lupe's friends that match " + name + " are: ")
+    print("--------------------------")
+    print("Name")
+    print("--------------------------")
+    print(name)
 else:
-    print("Key does not exist in dictionary")
-print("name = " + name)
+    print("Lupe does not have an friends that match the name " + name + ".")
