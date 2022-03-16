@@ -24,14 +24,12 @@ for elem in birthdayList:
     birthday = elem["birthday"]
     birthdayDictionary[name] = birthday
 
-# to print a value in the dictionary by giving it a string with the name as the key
-# print("Jocelyn Jones's birthday is: " + birthdayDictionary["Jocelyn Jones"])
-
 
 # to get user input
 name = input("Enter a name: ")
 if name in birthdayDictionary:
-    print("-----------------------------\n"+"Name\n"+"-----------------------------")
+    # print("-----------------------------\n"+"Name\n"+"-----------------------------")
+    # to print a value in the dictionary by giving it a string with the name as the key
     print('{}\'s birthday is {}.'.format(name, birthdayDictionary[name]))
     # print("Lupe's friends that match " + name + " are: " )
     # print(name + "'s birthday is " + birthdayDictionary[name])
